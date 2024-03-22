@@ -1,0 +1,27 @@
+{
+    "id": "93B07EF6",
+    "path": "D:/univ_of_arizona/cats/shiny_practice/accident_app/server.R",
+    "project_path": "server.R",
+    "type": "r_source",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1710804186992.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "126,0",
+        "scrollLine": "22"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1711066322,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1711066322316,
+    "read_only": false,
+    "read_only_alternatives": []
+}
