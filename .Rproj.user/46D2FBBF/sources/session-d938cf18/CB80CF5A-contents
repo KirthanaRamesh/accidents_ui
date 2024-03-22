@@ -57,6 +57,6 @@ aggregate_accidents_by_county <- function(data) {
 
 prepare_county_geo <- function() {
   counties_geo <- counties(class = "sf") %>%
-    st_transform(crs = 4326)  # Convert to WGS84 coordinate system
+    st_transform(crs = 4326)
   return(counties_geo)
 }

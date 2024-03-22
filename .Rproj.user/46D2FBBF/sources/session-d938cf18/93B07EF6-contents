@@ -5,7 +5,7 @@ library(scales)
 library(leaflet)
 library(sf)
 library(tigris)
-source("models/data_model.R")  # Load the model
+source("models/data_model.R")
 
 server <- function(input, output) {
   # Load the data once and use reactively
