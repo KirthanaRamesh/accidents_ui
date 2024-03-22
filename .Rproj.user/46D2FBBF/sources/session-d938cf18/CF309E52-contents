@@ -4,7 +4,7 @@ library(leaflet)
 library(shinycssloaders)
 
 ui <- dashboardPage(
-  dashboardHeader(title = "Traffic Accidents Analysis"),
+  dashboardHeader(title = "US Traffic Accidents Analysis"),
   dashboardSidebar(
     sidebarMenu(
       menuItem("Dashboard", tabName = "dashboard", icon = icon("dashboard")),
@@ -12,7 +12,9 @@ ui <- dashboardPage(
       menuItem("Geography Based", tabName = "geography", icon = icon("globe")),
       menuItem("Weather Based", tabName = "weather", icon = icon("cloud")),
       menuItem("Time Based", tabName = "time", icon = icon("clock"))
-    )
+    ),
+    div(style = "position:absolute; bottom:0; width:auto; text-align:left; padding-bottom:20px; padding-left:20px; color:grey;",
+         "Developed by Kirthana Ramesh using R 4.3.1 and Shiny")
   ),
   dashboardBody(
     tabItems(
